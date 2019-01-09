@@ -1,4 +1,0 @@
-C:/Users/bt186018/Documents/Private/MRND/SMEC/smec_online_tool/first_lesson/test/CMakeFiles/first_lesson.dir
-C:/Users/bt186018/Documents/Private/MRND/SMEC/smec_online_tool/first_lesson/test/CMakeFiles/rebuild_cache.dir
-C:/Users/bt186018/Documents/Private/MRND/SMEC/smec_online_tool/first_lesson/test/CMakeFiles/test.dir
-C:/Users/bt186018/Documents/Private/MRND/SMEC/smec_online_tool/first_lesson/test/CMakeFiles/edit_cache.dir
