@@ -54,3 +54,5 @@ dkms.conf
 # cmake files
 *.cmake
 *.make
+*/CMakeFiles
+*/CMakeFiles/*
