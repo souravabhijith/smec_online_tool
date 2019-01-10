@@ -56,3 +56,5 @@ dkms.conf
 *.make
 */CMakeFiles
 */CMakeFiles/*
+*/build
+*/build/*
