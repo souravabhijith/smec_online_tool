@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 
 char *hello_world() {
     return "hello, world!";

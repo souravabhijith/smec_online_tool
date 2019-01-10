@@ -21,6 +21,11 @@ add_executable(first_lesson ${SRC_DIR}/main.c)
 
 # test executables
 add_executable(Test_helloworld ${TEST_DIR}/Test_helloworld.c)
-target_include_directories(Test_helloworld PUBLIC ${UNITY_SOURCE_DIR})
+target_include_directories(Test_helloworld PUBLIC ${UNITY_SOURCE_DIR} ${SRC_DIR})
 target_link_libraries(Test_helloworld unity)
 add_test(Test_helloworld Test_helloworld)
+
+add_executable(Test_goodbye ${TEST_DIR}/Test_goodbye.c)
+target_include_directories(Test_goodbye PUBLIC ${UNITY_SOURCE_DIR} ${SRC_DIR})
+target_link_libraries(Test_goodbye unity)
+add_test(Test_goodbye Test_goodbye)
