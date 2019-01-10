@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include <stddef.h>
 #include <setjmp.h>
-#include "../../Unity/src/unity.h"
+#include "unity.h"
 #include "../src/helloworld.c"
 
 int points = 0;
@@ -13,7 +13,7 @@ static void test_hello_world() {
 }
 
 static void test_sum() {
-    TEST_ASSERT(5 == sum(2,3));
+    TEST_ASSERT_EQUAL(6, sum(2,3));
     points++;
 }
 
@@ -24,5 +24,5 @@ int main(int argc, char const *argv[])
     RUN_TEST(test_sum);
     UNITY_END();
 
-    printf("points : \n%d\n", points);
+    // printf("points : \n%d\n", points);
 }
