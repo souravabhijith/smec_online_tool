@@ -12,10 +12,34 @@ Check that all these tools are added to path. Open the terminal and check the fo
 - `make` or `mingw32-make`
 
 ## Build and Test
+Note: Check cmake --help to see the available generators on your platform
+
 Checkout the first_lesson branch
 `git clone --recursive https://github.com/BharathTalloju/smec_online_tool.git -b first_lesson`
 
-Go to build folder and run `cmake ..`. This will generate the necessary makefiles.
-Then run `make` for compilation.
+### On Windows
+- Go to any build folder.
+`cd build` or `cd first_lesson/build`
+- Generate Makefiles
+`cmake ..` or `cmake -G MinGW Makefiles ..`
+- Make
+`mingw32-make`
+
+### On OSX
+- Go to any build folder.
+`cd build` or `cd first_lesson/build`
+- Generate Makefiles
+`cmake ..` or `cmake -G Unix Makefiles ..`
+- Make
+`make`
+
+### On Unix
+- Go to any build folder.
+`cd build` or `cd first_lesson/build`
+- Generate Makefiles
+`cmake ..` or `cmake -G Unix Makefiles ..`
+- Make
+`make`
+
 
 For running the tests, run: `ctest --verbose`
