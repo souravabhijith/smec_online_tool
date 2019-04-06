@@ -16,6 +16,5 @@ int main()
     UNITY_BEGIN();
     RUN_TEST(test_hello_world);
     RUN_TEST(test_sum);
-    UNITY_END();
-
+    return UNITY_END();
 }

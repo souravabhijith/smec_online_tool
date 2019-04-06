@@ -10,5 +10,5 @@ static void test_difference() {
 int main() {
     UNITY_BEGIN();
     RUN_TEST(test_difference);
-    UNITY_END();
+    return UNITY_END();
 }
