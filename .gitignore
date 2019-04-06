@@ -58,3 +58,7 @@ dkms.conf
 */CMakeFiles/*
 */build/*
 build/*
+
+# test logs
+Testing/*
+*/Testing/*
