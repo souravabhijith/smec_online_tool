@@ -8,7 +8,7 @@ set(SRC_DIR src)
 set(TEST_DIR test)
 set(MAIN_DIR ./..)
 set(BUILD_DIR build)
-set(UNITY_SOURCE_DIR ../Unity/src)
+set(UNITY_SOURCE_DIR ../unity_test_framework)
 
 # create/find the required libraries
 add_library(unity STATIC ${UNITY_SOURCE_DIR}/unity.c)
