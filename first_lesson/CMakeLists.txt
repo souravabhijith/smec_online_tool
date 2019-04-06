@@ -25,7 +25,7 @@ target_include_directories(Test_helloworld PUBLIC ${UNITY_SOURCE_DIR} ${SRC_DIR}
 target_link_libraries(Test_helloworld unity)
 add_test(Test_helloworld Test_helloworld)
 
-add_executable(Test_goodbye ${TEST_DIR}/Test_goodbye.c)
-target_include_directories(Test_goodbye PUBLIC ${UNITY_SOURCE_DIR} ${SRC_DIR})
-target_link_libraries(Test_goodbye unity)
-add_test(Test_goodbye Test_goodbye)
+add_executable(Test_simple_program ${TEST_DIR}/Test_simple_program.c)
+target_include_directories(Test_simple_program PUBLIC ${UNITY_SOURCE_DIR} ${SRC_DIR})
+target_link_libraries(Test_simple_program unity)
+add_test(Test_simple_program Test_simple_program)
