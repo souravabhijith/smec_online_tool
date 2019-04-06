@@ -11,7 +11,7 @@ Check that all these tools are added to path. Open the terminal and check the fo
 - `cmake --version`
 - `make` or `mingw32-make`
 
-## Build and Test
+## Build
 Note: Check cmake --help to see the available generators on your platform
 
 Checkout the first_lesson branch
@@ -41,5 +41,16 @@ Checkout the first_lesson branch
 - Make
 `make`
 
+### Testing
+- Go to the build folder of any lesson.
+`cd first_lesson/build`
+- Build the files if you haven't already.
+`cmake ..;make`
+- To run all tests:
+`ctest --verbose`
+- To run specific tests:
+`ctest -R <test name>`
+- To list out all available tests:
+`ctest -N`
 
-For running the tests, run: `ctest --verbose`
+The test output is also logged in Testing/Temporary/LastTest.log
