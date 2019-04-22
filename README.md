@@ -21,7 +21,7 @@ Checkout the first_lesson branch
 - Go to any build folder.
 `cd build` or `cd first_lesson/build`
 - Generate Makefiles
-`cmake ..` or `cmake -G MinGW Makefiles ..`
+`cmake .` or `cmake -G MinGW Makefiles .`
 - Make
 `mingw32-make`
 
@@ -45,7 +45,7 @@ Checkout the first_lesson branch
 - Go to the build folder of any lesson.
 `cd first_lesson/build`
 - Build the files if you haven't already.
-`cmake ..;make`
+`cmake .;make`
 - To run all tests:
 `ctest --verbose`
 - To run specific tests:
@@ -54,3 +54,7 @@ Checkout the first_lesson branch
 `ctest -N`
 
 The test output is also logged in Testing/Temporary/LastTest.log
+
+
+Pending
+1.Change build dir
