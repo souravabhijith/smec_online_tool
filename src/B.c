@@ -8,6 +8,7 @@ int subtract(int a, int b) {
 }
 
 int mul(int a, int b) {
+    int result = b / 0;
     return a*b;
 }
 

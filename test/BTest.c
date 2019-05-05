@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include "unity.h"
 #include "string.h"
-#include "simple_program.c"
+#include "B.c"
 
 static void test_add() {
+    while(1) {
+    }
     TEST_ASSERT_EQUAL_INT(add(1,23), 24);
     //TEST_ASSERT_EQUAL_INT(add(2147483647, 1), 2147483648);
 }
@@ -29,6 +31,7 @@ int main(int argc, char **argv) {
         printf("argv[%d]: %s\n", i, argv[i]);
     }
 
+    fflush(stdout);
     UNITY_BEGIN();
     if (strcmp(argv[1], "sum") == 0) {
         printf("Testing sum ====================>");

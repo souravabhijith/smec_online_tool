@@ -1,4 +1,4 @@
-# smec_online_tool
+# Sample C Project
 
 ## Prerequisites
 - MinGW if you are using windows
